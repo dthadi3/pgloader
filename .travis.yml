@@ -2,6 +2,10 @@ language: shell
 os: linux
 dist: xenial
 
+arch:
+    - AMD64
+    - ppc64le
+
 env:
   matrix:
     - LISP=ccl  PGVERSION=9.6
